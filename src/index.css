@@ -1,0 +1,66 @@
+@keyframes jump {
+  from {
+    margin-top: -200px;
+  }
+  50% {
+    margin-top: -300px;
+  }
+  to {
+    margin-top: -200px;
+  }
+}
+
+@keyframes moveinalittle {
+  from {
+    margin-left: 400px;
+  }
+
+  to {
+    margin-left: 475px;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 600%;
+  }
+}
+
+body {
+  background-image: url('assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jump {
+  animation: jump 0.75s;
+}
+
+.movealittle {
+  animation: moveinalittle 0.25s;
+}
+
+.object {
+  width: 40px;
+  height: 30px;
+  background-color: red;
+  margin-top: -320px;
+}
+
+#rv {
+  margin-top: 160px;
+  width: 400px;
+  height: 350px;
+}
+
+#walter {  
+  width: 75px;
+  height: 150px;
+  margin-top: -200px;
+  margin-left: 400px;
+  background-color: aqua;
+}
