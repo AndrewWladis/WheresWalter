@@ -1,6 +1,6 @@
 {
   "name": "wheres-walter",
-  "productName": "wheres-walter",
+  "productName": "Where's Walter",
   "version": "1.0.0",
   "description": "A game where you find walter",
   "main": "src/index.js",
@@ -18,7 +18,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-packager": "^17.1.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.70",
